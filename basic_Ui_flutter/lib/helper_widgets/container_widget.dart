@@ -17,7 +17,7 @@ class MyContainer extends StatelessWidget {
               topLeft: Radius.circular(10),
               topRight: Radius.circular(50))),
       child: Center(
-          child: Column(children: <Widget>[
+        child: Column(children: <Widget>[
         MyText(),
         SizedBox(height: 20),
         MyTextField()
